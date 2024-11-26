@@ -38,10 +38,10 @@
 .intro-info p {
   flex: 2 1 500px;
   font-variation-settings: "wght" var(--p2-weight);
-  font-size: 2vh;
+  font-size: 1.5vh;
   margin-top: 3vh;
   letter-spacing: normal;
-  line-height: 1.5;
+  line-height: 1.75;
 }
 
 .intro-image {
@@ -62,4 +62,49 @@
 .intro-image-title {
   font-size: 12px;
   color: gray;
+}
+
+.contact {
+  width: 100%;
+}
+
+.contact hr {
+  display: block;
+  height: 100%;
+  border: 0;
+  border-top: 1px solid #b0b0b0;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.contact-info-preview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.contact-info-card {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #b0b0b0;
+  border-radius: 10px;
+}
+
+.contact-info-card-logo {
+  padding: 10px;
+}
+
+.contact-info-card-note {
+  padding: 10px;
+}
+
+.contact-link a {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .contact-info-preview {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

@@ -2,10 +2,10 @@
   text-align: center;
 }
 .container {
-  max-width: var(--max-width); /* Maximum width */
-  margin: 0 auto; /* Center the container */
-  padding: 2rem 1rem; /* Add padding for spacing */
-  width: 100%; /* Adjust for smaller screens */
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  width: 100%;
 }
 
 .tab-container {

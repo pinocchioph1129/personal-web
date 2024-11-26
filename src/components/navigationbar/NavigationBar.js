@@ -13,6 +13,7 @@ export default function NavigationBar() {
         </div>
         <ul>
           <CustomLink to="/Notes">Notes</CustomLink>
+          <CustomLink to="/Articles">Articles</CustomLink>
           <CustomLink to="/Projects">Projects</CustomLink>
           <CustomLink to="/About">About Me</CustomLink>
         </ul>
