@@ -111,7 +111,11 @@ export default function About() {
                 rel="noopener noreferrer"
                 className="contact-link"
               >
-                <Icon icon="unjs:fs-memo" width="25" height="25" />{" "}
+                <Icon
+                  icon="fluent-emoji-flat:closed-mailbox-with-raised-flag"
+                  width="25"
+                  height="25"
+                />{" "}
               </a>
             </div>
             <div className="contact-info-card-note">
@@ -128,26 +132,71 @@ export default function About() {
           <div className="contact-info-card">
             <div className="contact-info-card-logo">
               <a
-                href="https://www.instagram.com/thatpinkball/"
+                href="https://docs.google.com/document/d/1mUfr3e5Z55ZTe2SSlDUJUquUE3ZO1jmJ/edit?usp=sharing&ouid=117487131264263306172&rtpof=true&sd=true"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact-link"
               >
-                <Icon icon="skill-icons:instagram" width="25" height="25" />{" "}
+                <Icon icon="unjs:fs-memo" width="25" height="25" />{" "}
               </a>
             </div>
             <div className="contact-info-card-note">
               <a
-                href="https://www.instagram.com/thatpinkball/"
+                href="https://docs.google.com/document/d/1mUfr3e5Z55ZTe2SSlDUJUquUE3ZO1jmJ/edit?usp=sharing&ouid=117487131264263306172&rtpof=true&sd=true"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact-link"
               >
-                <h3>Instagram</h3>
+                <h3>Resume</h3>
               </a>
             </div>
           </div>
         </div>
+      </div>
+      <div className="current">
+        <h1>What I'm Doing Now</h1>
+        <hr />
+        <div className="current-container">
+          <video
+            className="current-video"
+            src="/videos/climbing.MOV"
+            type="video/mp4"
+            width="400"
+            height="400"
+            loop
+            autoPlay
+            muted
+          >
+            Your browser does not support the video tag.
+          </video>
+          <div className="current-info">
+            <h2>Currently</h2>
+            <em>November 27th, 2024</em>
+            <ul>
+              <li>Studying Computer Science and Philosophy at UIUC</li>
+              <li>Going to the gym everyday</li>
+              <li>Preparing for cooking on Thanksgiving</li>
+              <li>Working on a game project with Max</li>
+              <li>Tweaking this website</li>
+            </ul>
+            <h2>Routine</h2>
+            <a href="https://www.lifehack.org/688549/the-ultimate-workout-routines-for-men#advanced-workout-routine-for-men">
+              Link here!
+            </a>
+            <ul>
+              <li>Day 1: Chest & Back Workout</li>
+              <li>Day 2: Legs Workout</li>
+              <li>Day 3: Shoulders and Arms Workout</li>
+              <li>Day 4: Rest</li>
+              <li>Day 5: Chest, Shoulders, and Triceps Workout</li>
+              <li>Day 6: Back and Biceps Workout</li>
+              <li>Day 7: Legs Workout</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="tools">
+        <div className="tools-container"></div>
       </div>
     </div>
   );
