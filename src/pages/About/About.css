@@ -1,22 +1,35 @@
+hr {
+  display: block;
+  height: 100%;
+  border: 0;
+  border-top: 1px solid #b0b0b0;
+  margin: 1em 0;
+  padding: 0;
+}
+
+h2 {
+  margin-bottom: 1.5vh;
+  margin-top: 1.5vh;
+}
+
+p {
+  flex: 2 1 500px;
+  font-variation-settings: "wght" var(--p2-weight);
+  font-size: var(--p2-size);
+  letter-spacing: normal;
+  line-height: 1.75;
+}
+
+p strong {
+  font-variation-settings: "wght" var(--p2-bold);
+}
+
 .about-container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 2rem;
-}
-
-.introduction-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 2rem;
-  width: 100%;
-  max-width: var(--max-width);
-}
-
-.title h1 {
-  font-size: 6vh;
 }
 
 .intro {
@@ -26,6 +39,10 @@
 .intro-info {
   flex: 1;
   max-width: 100%;
+}
+
+.intro-info h1 {
+  font-size: 6vh;
 }
 
 .about-container {
@@ -38,10 +55,15 @@
 .intro-info p {
   flex: 2 1 500px;
   font-variation-settings: "wght" var(--p2-weight);
-  font-size: 1.5vh;
+  font-size: 1.8vh;
   margin-top: 3vh;
   letter-spacing: normal;
   line-height: 1.75;
+}
+
+.intro-link {
+  color: var(--link-color);
+  text-decoration: none;
 }
 
 .intro-image {
@@ -66,15 +88,6 @@
 
 .contact {
   width: 100%;
-}
-
-.contact hr {
-  display: block;
-  height: 100%;
-  border: 0;
-  border-top: 1px solid #b0b0b0;
-  margin: 1em 0;
-  padding: 0;
 }
 
 .contact-info-preview {
@@ -116,15 +129,6 @@
   padding-top: 30px;
 }
 
-.current hr {
-  display: block;
-  height: 100%;
-  border: 0;
-  border-top: 1px solid #b0b0b0;
-  margin: 1em 0;
-  padding: 0;
-}
-
 .current-container {
   display: flex;
   padding-top: 3vh;
@@ -133,22 +137,35 @@
 .current-container em {
   margin-bottom: 20px;
   font-variation-settings: "wght" var(--p2-weight);
-  font-size: 1.5vh;
+  font-size: 1.8vh;
 }
 
 .current-container a {
-  color: black;
+  color: var(--link-color);
   text-decoration: none;
   margin-bottom: 20px;
   font-variation-settings: "wght" var(--p2-weight);
-  font-size: 1.5vh;
+  font-size: 1.8vh;
 }
 
 .current-container ul {
-  padding-bottom: 20px;
   font-variation-settings: "wght" var(--p2-weight);
-  font-size: 1.5vh;
+  font-size: 1.8vh;
   line-height: 2.5vh;
+}
+
+.current-container li {
+  margin: 2px 0;
+}
+
+.tools {
+  width: 100%;
+  padding-top: 30px;
+}
+
+.footer {
+  width: 100%;
+  padding-top: 30px;
 }
 
 @media (max-width: 768px) {

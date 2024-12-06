@@ -1,0 +1,30 @@
+.projects-container h1 {
+  font-size: 6vh;
+  margin-bottom: 3vh;
+}
+
+.projects-tabs {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.project-tabs-preview {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+  padding: 0rem;
+  border-radius: 10px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  background: rgb(244, 244, 244);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}

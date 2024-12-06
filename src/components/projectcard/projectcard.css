@@ -1,0 +1,47 @@
+.project-card {
+  height: 18vh;
+}
+.project-card-year p {
+  color: #565656;
+}
+
+.project-card-name p {
+  font-variation-settings: "wght" var(--link-weight);
+}
+
+.project-card-name a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+.project-card-tabs a {
+  text-decoration: none;
+  color: black;
+}
+
+.project-card-tabs {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.project-card-tab {
+  font-variation-settings: "wght" 500;
+  border-radius: 8px;
+  border: 1.5px solid #d7d7d7;
+  background-color: rgb(226, 226, 226);
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.project-card-tab a {
+  font-size: 1.5vh;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.3rem;
+}
+
+.project-card-tab:hover {
+  border-radius: 8px;
+  border: 1.5px solid #525252;
+}

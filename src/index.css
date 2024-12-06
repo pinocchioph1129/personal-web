@@ -10,7 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #e1e1e1;
+  background-color: #ededed;
 }
 
 code {
@@ -22,4 +22,8 @@ code {
   --max-width: 720px;
   --p-weight: 450;
   --p2-weight: 450;
+  --p2-bold: 700;
+  --p2-size: 1.8vh;
+  --link-color: rgb(44, 115, 0);
+  --link-weight: 600;
 }

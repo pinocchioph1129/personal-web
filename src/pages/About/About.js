@@ -60,6 +60,7 @@ export default function About() {
       <div className="contact">
         <h1>Contact</h1>
         <hr />
+        <p>Send me a letter to say hi! or connect with my socials.</p>
         <div className="contact-info-preview">
           <div className="contact-info-card">
             <div className="contact-info-card-logo">
@@ -161,8 +162,8 @@ export default function About() {
             className="current-video"
             src="/videos/climbing.MOV"
             type="video/mp4"
-            width="400"
-            height="400"
+            width="450"
+            height="450"
             loop
             autoPlay
             muted
@@ -171,11 +172,11 @@ export default function About() {
           </video>
           <div className="current-info">
             <h2>Currently</h2>
-            <em>November 27th, 2024</em>
+            <em>December 5th, 2024</em>
             <ul>
               <li>Studying Computer Science and Philosophy at UIUC</li>
               <li>Going to the gym everyday</li>
-              <li>Preparing for cooking on Thanksgiving</li>
+              <li>Blackouts by Justin Torres</li>
               <li>Working on a game project with Max</li>
               <li>Tweaking this website</li>
             </ul>
@@ -196,7 +197,75 @@ export default function About() {
         </div>
       </div>
       <div className="tools">
-        <div className="tools-container"></div>
+        <div className="tools-container">
+          <h1>Development Tools</h1>
+          <hr />
+
+          <h2>Software</h2>
+          <p>
+            This website is hosted React and hoster on Github Pages SSG
+            framework
+          </p>
+
+          <p>
+            <strong>Coding</strong>: Visual Studio Code
+          </p>
+          <p>
+            <strong>Theme</strong>: Dark Modern Theme, my favorite theme
+          </p>
+          <p>
+            <strong>Terminal</strong>: Z shell
+          </p>
+          <p>
+            <strong>Notes</strong>: Freenotes and Notion
+          </p>
+
+          <h2>Hardware</h2>
+
+          <p>
+            <strong>Coding PC</strong>: M1 MacBook Pro 14" 2021, 16 GB RAM,
+            Sequoia 15.0
+          </p>
+          <p>
+            <strong>Gaming PC</strong>:
+            <ul>
+              <li>CPU: AMD Ryzen 5 3600</li>
+              <li>GPU: Nvidia GTX 1660ti</li>
+              <li>Motherboard: Aorus B-450 wifi</li>
+              <li>RAM: Corsair Vengeance 16GB</li>
+              <li>Case: NZXT H510</li>
+              <li>PSU: Corsair 750W</li>
+            </ul>
+          </p>
+
+          <p>
+            <strong>Gaming Console</strong>:PlayStation 5
+          </p>
+
+          <p>
+            <strong>Monitor</strong>: Acer - KA272 27" full HD IPS Monitor
+          </p>
+          <p>
+            <strong>Keyboard</strong>: Magic Keyboard with Touch ID and EPOMAKER
+            RT65
+          </p>
+          <p>
+            <strong>Tablet</strong>: iPad Pro 12.9" M1 Pro 2021
+          </p>
+          <p>
+            <strong>Headphones</strong>: AirPods Max (Lightning) Space Grey
+          </p>
+        </div>
+      </div>
+      <div className="footer">
+        <hr />
+        <div className="footer-container">
+          <p>
+            Made with{" "}
+            <Icon icon="twemoji:beating-heart" width="15" height="15" /> by
+            Kervi Jay
+          </p>
+        </div>
       </div>
     </div>
   );
