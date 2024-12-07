@@ -62,8 +62,23 @@ p strong {
 }
 
 .intro-link {
+  position: relative;
   color: var(--link-color);
   text-decoration: none;
+}
+
+.intro-link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 1px;
+  width: 0;
+  background: var(--link-color);
+  transition: width 0.4s ease;
+}
+.intro-link:hover::before {
+  width: 100%;
 }
 
 .intro-image {
@@ -102,6 +117,12 @@ p strong {
   justify-content: flex;
   border: 1px solid #b0b0b0;
   border-radius: 10px;
+  background-color: #e1e1e1;
+  transition: all 0.5s ease;
+}
+
+.contact-info-card:hover {
+  border: 1px solid #000000;
 }
 
 .contact-info-card-logo {
@@ -146,6 +167,22 @@ p strong {
   margin-bottom: 20px;
   font-variation-settings: "wght" var(--p2-weight);
   font-size: 1.8vh;
+  position: relative;
+}
+
+.current-container a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 1px;
+  width: 0;
+  background: var(--link-color);
+  transition: width 0.4s ease;
+}
+
+.current-container a:hover::before {
+  width: 100%;
 }
 
 .current-container ul {

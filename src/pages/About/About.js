@@ -62,96 +62,69 @@ export default function About() {
         <hr />
         <p>Send me a letter to say hi! or connect with my socials.</p>
         <div className="contact-info-preview">
-          <div className="contact-info-card">
-            <div className="contact-info-card-logo">
-              <a
-                href="https://www.linkedin.com/in/kervi-j"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+          <a
+            href="https://www.linkedin.com/in/kervi-j"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="contact-info-card">
+              <div className="contact-info-card-logo">
                 <Icon icon="devicon:linkedin" width="25" height="25" />{" "}
-              </a>
-            </div>
-            <div className="contact-info-card-note">
-              <a
-                href="https://www.linkedin.com/in/kervi-j"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              </div>
+              <div className="contact-info-card-note">
                 <h3>LinkedIn</h3>
-              </a>
+              </div>
             </div>
-          </div>
-          <div className="contact-info-card">
-            <div className="contact-info-card-logo">
-              <a
-                href="https://github.com/pinocchioph1129"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="contact-link"
-              >
+          </a>
+          <a
+            href="https://github.com/pinocchioph1129"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-link"
+          >
+            <div className="contact-info-card">
+              <div className="contact-info-card-logo">
                 <Icon icon="skill-icons:github-light" width="25" height="25" />{" "}
-              </a>
-            </div>
-            <div className="contact-info-card-note">
-              <a
-                href="https://github.com/pinocchioph1129"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="contact-link"
-              >
+              </div>
+              <div className="contact-info-card-note">
                 <h3>Github</h3>
-              </a>
+              </div>
             </div>
-          </div>
-          <div className="contact-info-card">
-            <div className="contact-info-card-logo">
-              <a
-                href="mailto:kjavo2@illinois.edu"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="contact-link"
-              >
+          </a>
+          <a
+            href="mailto:kjavo2@illinois.edu"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-link"
+          >
+            <div className="contact-info-card">
+              <div className="contact-info-card-logo">
                 <Icon
                   icon="fluent-emoji-flat:closed-mailbox-with-raised-flag"
                   width="25"
                   height="25"
                 />{" "}
-              </a>
-            </div>
-            <div className="contact-info-card-note">
-              <a
-                href="mailto:kjavo2@illinois.edu"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="contact-link"
-              >
+              </div>
+              <div className="contact-info-card-note">
                 <h3>Email</h3>
-              </a>
+              </div>
             </div>
-          </div>
-          <div className="contact-info-card">
-            <div className="contact-info-card-logo">
-              <a
-                href="https://docs.google.com/document/d/1mUfr3e5Z55ZTe2SSlDUJUquUE3ZO1jmJ/edit?usp=sharing&ouid=117487131264263306172&rtpof=true&sd=true"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="contact-link"
-              >
+          </a>
+          <a
+            href="https://docs.google.com/document/d/1mUfr3e5Z55ZTe2SSlDUJUquUE3ZO1jmJ/edit?usp=sharing&ouid=117487131264263306172&rtpof=true&sd=true"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-link"
+          >
+            <div className="contact-info-card">
+              <div className="contact-info-card-logo">
                 <Icon icon="unjs:fs-memo" width="25" height="25" />{" "}
-              </a>
-            </div>
-            <div className="contact-info-card-note">
-              <a
-                href="https://docs.google.com/document/d/1mUfr3e5Z55ZTe2SSlDUJUquUE3ZO1jmJ/edit?usp=sharing&ouid=117487131264263306172&rtpof=true&sd=true"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="contact-link"
-              >
+              </div>
+              <div className="contact-info-card-note">
                 <h3>Resume</h3>
-              </a>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
       <div className="current">
@@ -254,16 +227,6 @@ export default function About() {
           </p>
           <p>
             <strong>Headphones</strong>: AirPods Max (Lightning) Space Grey
-          </p>
-        </div>
-      </div>
-      <div className="footer">
-        <hr />
-        <div className="footer-container">
-          <p>
-            Made with{" "}
-            <Icon icon="twemoji:beating-heart" width="15" height="15" /> by
-            Kervi Jay
           </p>
         </div>
       </div>

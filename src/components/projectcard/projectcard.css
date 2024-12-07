@@ -1,6 +1,11 @@
 .project-card {
-  height: 18vh;
+  height: 20vh;
 }
+
+.project-card-detail p {
+  font-size: 1.5vh;
+}
+
 .project-card-year p {
   color: #565656;
 }

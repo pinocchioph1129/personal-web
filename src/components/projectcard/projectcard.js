@@ -16,7 +16,10 @@ function ProjectCard({ year, name, detail, article, demo, source }) {
         </p>
       </div>
 
-      <p>{detail}</p>
+      <div className="project-card-detail">
+        <p>{detail}</p>
+      </div>
+
       <div className="project-card-tabs">
         <div className="project-card-tabs">
           {article && (
