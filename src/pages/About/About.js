@@ -145,7 +145,7 @@ export default function About() {
               Your browser does not support the video tag.
             </video>
             <span className="current-video-title">
-              vid. 1 video of me rock climbing at ARC
+              vid. 1 this is me rock climbing at ARC
             </span>
           </div>
           <div className="current-info">
