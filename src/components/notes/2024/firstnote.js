@@ -1,4 +1,4 @@
-import "/Users/kervi1/personal-web/src/components/notes/notespage.css";
+import "../notespage.css";
 import CodeBlock from "../../../utilities/codeblock/codeblock";
 
 export default function Page() {
