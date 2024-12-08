@@ -16,7 +16,7 @@ function App() {
       <div className="container">
         <div className="tab-container">
           <Routes>
-            <Route path="/personal-web" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/firstnote" element={<FirstNote />} />
             <Route path="/Notes" element={<Notes />} />
             <Route path="/Notes/firstnote" element={<FirstNote />} />
