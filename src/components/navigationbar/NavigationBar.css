@@ -67,3 +67,45 @@
   color: var(--link-color);
   border-radius: 5px;
 }
+
+.menu-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+
+  .nav-container ul {
+    display: none; /* Hide menu by default */
+    flex-direction: column;
+    width: 100%;
+    background-color: #ededed;
+    padding: 1rem 0;
+    gap: 0.5rem;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .nav-container ul.open {
+    display: flex; /* Show menu when open */
+  }
+
+  .nav-container ul li {
+    width: 100%;
+  }
+
+  .nav-container ul li a {
+    text-align: left;
+    width: 100%;
+    padding: 0.5rem 1rem;
+  }
+}

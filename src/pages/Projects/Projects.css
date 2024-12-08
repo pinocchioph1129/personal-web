@@ -28,3 +28,14 @@
   border-radius: 8px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
+@media (max-width: 768px) {
+  .project-tabs-preview {
+    grid-template-columns: 1fr; /* Change to a single column */
+    gap: 1rem; /* Reduce gap for smaller screens */
+  }
+
+  .project-card {
+    width: 100%; /* Ensure cards take full width */
+  }
+}
