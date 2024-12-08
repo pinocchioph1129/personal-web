@@ -133,7 +133,7 @@ export default function About() {
         <div className="current-container">
           <video
             className="current-video"
-            src="/videos/climbing.MOV"
+            src={`${process.env.PUBLIC_URL}/videos/climbing.MOV`}
             type="video/mp4"
             width="450"
             height="450"
