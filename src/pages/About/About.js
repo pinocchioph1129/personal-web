@@ -2,6 +2,7 @@ import "./About.css";
 import PhotoChanger from "../../utilities/photochange/photochanger.js";
 import { Link } from "react-router-dom";
 import { Icon } from "@iconify/react";
+import { useState, useEffect } from "react";
 import PhotoA from "../../assets/about/pfp/100p-p.png";
 import PhotoB from "../../assets/about/pfp/75p-p.png";
 import PhotoC from "../../assets/about/pfp/50p-p.png";
@@ -10,12 +11,27 @@ import PhotoE from "../../assets/about/pfp/8p-p.png";
 import PhotoF from "../../assets/about/pfp/1p-p.png";
 
 export default function About() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <div className="about-container">
       <div className="intro">
         <div className="intro-info">
           <h1>About Me</h1>
-          <div className="intro-image">
+          <div className={`intro-image ${isMobile ? "mobile" : ""}`}>
             <PhotoChanger
               images={[PhotoA, PhotoB, PhotoC, PhotoD, PhotoE, PhotoF]}
               intervalTime={200}
@@ -132,18 +148,20 @@ export default function About() {
         <hr />
         <div className="current-container">
           <div className="current-video-container">
-            <video
-              className="current-video"
-              src={`${process.env.PUBLIC_URL}/videos/climbingme.MOV`}
-              type="video/mp4"
-              width="450"
-              height="450"
-              loop
-              autoPlay
-              muted
-            >
-              Your browser does not support the video tag.
-            </video>
+            {!isMobile && (
+              <video
+                className="current-video"
+                src={`${process.env.PUBLIC_URL}/videos/climbingme.MOV`}
+                type="video/mp4"
+                width="450"
+                height="450"
+                loop
+                autoPlay
+                muted
+              >
+                Your browser does not support the video tag.
+              </video>
+            )}
             <span className="current-video-title">
               vid. 1 this is me rock climbing at ARC
             </span>

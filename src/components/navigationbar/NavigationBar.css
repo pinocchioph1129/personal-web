@@ -83,7 +83,7 @@
   }
 
   .nav-container ul {
-    display: none; /* Hide menu by default */
+    display: none;
     flex-direction: column;
     width: 100%;
     background-color: #ededed;
@@ -96,7 +96,7 @@
   }
 
   .nav-container ul.open {
-    display: flex; /* Show menu when open */
+    display: flex;
   }
 
   .nav-container ul li {

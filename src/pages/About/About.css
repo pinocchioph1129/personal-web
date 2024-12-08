@@ -152,7 +152,7 @@ p strong {
 
 .current-container {
   display: flex;
-  padding-top: 3vh;
+  padding-top: 1vh;
 }
 
 .current-video-container {
@@ -230,5 +230,39 @@ p strong {
 @media (max-width: 768px) {
   .contact-info-preview {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .current-video-container {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-image {
+    float: none;
+    width: 70%;
+    max-width: 250px;
+    margin: 0 auto 2rem;
+    display: block;
+  }
+
+  .intro-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .intro-info p {
+    font-size: 1.8vh;
+    text-align: justify;
+  }
+
+  .intro-info h1 {
+    padding-bottom: 20px;
+  }
+
+  .current-container {
+    padding-top: 0px;
   }
 }
