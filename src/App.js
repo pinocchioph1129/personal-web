@@ -4,6 +4,7 @@ import NavigationBar from "./components/navigationbar/NavigationBar";
 import Footer from "./components/footer/footer";
 import Home from "./pages/Home/Home";
 import Notes from "./pages/Notes/Notes";
+import FirstNote from "./components/notes/2024/firstnote";
 import Articles from "./pages/Articles/Articles";
 import Projects from "./pages/Projects/Projects";
 import About from "./pages/About/About";
@@ -16,7 +17,9 @@ function App() {
         <div className="tab-container">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/firstnote" element={<FirstNote />} />
             <Route path="/Notes" element={<Notes />} />
+            <Route path="/Notes/firstnote" element={<FirstNote />} />
             <Route path="/Articles" element={<Articles />} />
             <Route path="/Projects" element={<Projects />} />
             <Route path="/About" element={<About />} />

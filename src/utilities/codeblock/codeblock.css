@@ -1,0 +1,23 @@
+code {
+  background-color: #e7e7e7 !important;
+  font-size: 1.6vh;
+}
+
+.code-container {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.code-filename {
+  background: #e0e0e0;
+  align-items: center;
+  display: flex;
+  justify-content: start;
+  height: 6vh;
+  border-bottom: 1px solid #bcbcbc;
+}
+
+.code-filename p {
+  font-variation-settings: "wght" var(--p-bold);
+  padding: 10px;
+}

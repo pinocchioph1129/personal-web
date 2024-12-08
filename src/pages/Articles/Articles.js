@@ -1,4 +1,5 @@
 import "./Articles.css";
+import { Link } from "react-router-dom";
 
 export default function Articles() {
   return (
@@ -12,7 +13,11 @@ export default function Articles() {
         </p>
 
         <div className="articles-topics">
-          <p>Explore Topics</p>
+          <p>
+            <Link to="/Projects" className="articles-link">
+              Explore Topics
+            </Link>
+          </p>
         </div>
 
         <h2>2024</h2>

@@ -52,43 +52,53 @@ export default function Home() {
           <CircleText text="Hover over photos to reveal " radius={45} />
         </div>
       </div>
-      <div class="home-notes-container">
-        <div className="home-title">
-          <h2>Notes</h2>
-          <Link to="/Notes" className="home-dir">
-            All Notes
-          </Link>
+      <div className="home-content">
+        <div className="home-notes-container">
+          <div className="home-title">
+            <h2>Notes</h2>
+            <Link to="/Notes" className="home-dir">
+              All Notes
+            </Link>
+          </div>
+          <hr />
+          <p>
+            Personal notes about life, music, projects, and everything else.
+          </p>
+          <div className="home-notes-links">
+            <Link to="./firstnote" className="notes-page">
+              <div className="notes-page-name">My Very First Note</div>
+              <div className="notes-page-date">December 10</div>
+            </Link>
+          </div>
         </div>
-        <hr />
-        <p>Personal notes about life, music, projects, and everything else.</p>
-      </div>
-      <div class="home-articles-container">
-        <div className="home-title">
-          <h2>Articles</h2>
-          <Link to="/Articles" className="home-dir">
-            All Articles
-          </Link>
+        <div class="home-articles-container">
+          <div className="home-title">
+            <h2>Articles</h2>
+            <Link to="/Articles" className="home-dir">
+              All Articles
+            </Link>
+          </div>
+          <hr />
+          <p>Guides, references, and tutorials.</p>
         </div>
-        <hr />
-        <p>Guides, references, and tutorials.</p>
-      </div>
-      <div class="home-projects-container">
-        <div className="home-title">
-          <h2>Projects</h2>
-          <Link to="/Projects" className="home-dir">
-            All Projects
-          </Link>
-        </div>
-        <hr />
-        <p>Projects that I have worked over the years.</p>
-        <div className="home-projects-tabs">
-          {projectData.map((project, index) => (
-            <ProjectCard
-              key={index}
-              {...project}
-              className="home-projects-card"
-            />
-          ))}
+        <div class="home-projects-container">
+          <div className="home-title">
+            <h2>Projects</h2>
+            <Link to="/Projects" className="home-dir">
+              All Projects
+            </Link>
+          </div>
+          <hr />
+          <p>Projects that I have worked over the years.</p>
+          <div className="home-projects-tabs">
+            {projectData.slice(0, 4).map((project, index) => (
+              <ProjectCard
+                key={index}
+                {...project}
+                className="home-projects-card"
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>

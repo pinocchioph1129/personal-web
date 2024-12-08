@@ -67,6 +67,10 @@
   border-radius: 50%;
 }
 
+.home-content p {
+  padding-bottom: 20px;
+}
+
 .home-title {
   display: flex;
   justify-content: space-between;
@@ -96,6 +100,22 @@
   margin: 2rem 0;
   padding: 0rem;
   border-radius: 10px;
+}
+
+.home-projects-tabs p {
+  padding-bottom: 0px;
+}
+
+.home-notes-links {
+  padding-bottom: 20px;
+}
+
+.home-articles-links {
+  padding-bottom: 20px;
+}
+
+.home-projects-container p {
+  padding-bottom: 0px;
 }
 
 .home-projects-card {

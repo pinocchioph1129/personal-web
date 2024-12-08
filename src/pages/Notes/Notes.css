@@ -2,3 +2,26 @@
   font-size: 6vh;
   margin-bottom: 3vh;
 }
+
+.notes-page {
+  text-decoration: none;
+  justify-content: space-between;
+  display: flex;
+  padding: 1vh;
+  border-radius: 10px;
+  align-items: center;
+  font-variation-settings: "wght" var(--p-bold);
+  transition: all 0.3s ease;
+}
+
+.notes-page:hover {
+  background: #e6e6e6;
+}
+
+.notes-page-name {
+  color: var(--link-color);
+}
+
+.notes-page-date {
+  color: #6f6f6f;
+}
