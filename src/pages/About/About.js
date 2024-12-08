@@ -131,18 +131,23 @@ export default function About() {
         <h1>What I'm Doing Now</h1>
         <hr />
         <div className="current-container">
-          <video
-            className="current-video"
-            src={`${process.env.PUBLIC_URL}/videos/climbingme.MOV`}
-            type="video/mp4"
-            width="450"
-            height="450"
-            loop
-            autoPlay
-            muted
-          >
-            Your browser does not support the video tag.
-          </video>
+          <div className="current-video-container">
+            <video
+              className="current-video"
+              src={`${process.env.PUBLIC_URL}/videos/climbingme.MOV`}
+              type="video/mp4"
+              width="450"
+              height="450"
+              loop
+              autoPlay
+              muted
+            >
+              Your browser does not support the video tag.
+            </video>
+            <span className="current-video-title">
+              fig. 2 picture of me at a pumpkin patch
+            </span>
+          </div>
           <div className="current-info">
             <h2>Currently</h2>
             <em>December 5th, 2024</em>
@@ -176,7 +181,7 @@ export default function About() {
 
           <h2>Software</h2>
           <p>
-            This website is hosted React and hoster on Github Pages SSG
+            This website is made with React and hosted on Github Pages SSG
             framework
           </p>
 
@@ -212,7 +217,7 @@ export default function About() {
           </p>
 
           <p>
-            <strong>Gaming Console</strong>:PlayStation 5
+            <strong>Gaming Console</strong>: PlayStation 5
           </p>
 
           <p>

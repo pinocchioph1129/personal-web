@@ -140,7 +140,7 @@ p strong {
   text-decoration: none;
 }
 
-.contact-info-card-note a {
+.contact-info-preview a {
   color: inherit;
   text-decoration: none;
 }
@@ -153,6 +153,28 @@ p strong {
 .current-container {
   display: flex;
   padding-top: 3vh;
+}
+
+.current-video-container {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.current-video {
+  width: 100%;
+  max-width: 450px;
+}
+
+.current-video-title {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  padding-right: 35px;
+  color: gray;
+  width: 100%;
+  max-width: 450px;
+  margin-top: 8px;
 }
 
 .current-container em {
