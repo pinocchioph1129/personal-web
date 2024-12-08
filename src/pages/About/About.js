@@ -154,7 +154,7 @@ export default function About() {
             <ul>
               <li>Studying Computer Science and Philosophy at UIUC</li>
               <li>Going to the gym everyday</li>
-              <li>Blackouts by Justin Torres</li>
+              <li>Reading Blackouts by Justin Torres</li>
               <li>Working on a game project with Max</li>
               <li>Tweaking this website</li>
             </ul>
