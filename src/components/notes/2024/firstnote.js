@@ -103,7 +103,7 @@ export default function Page() {
           <a href="https://store.steampowered.com/dlc/1245620/ELDEN_RING/">
             Elden Ring DLC: Shadow of the Erdtree
           </a>{" "}
-          but I could not because my lvl 200 Astrologer keeps getting one shot
+          but I couldn't because my level 200 Astrologer keeps getting one shot
           by every living being in the DLC. This winter break, maybe I will try
           finishing a game, maybe I will play{" "}
           <a href="https://store.steampowered.com/app/2124490/SILENT_HILL_2/">
@@ -119,13 +119,13 @@ export default function Page() {
           day in my strength and endurance. Here's my{" "}
           <a href="https://www.lifehack.org/688549/the-ultimate-workout-routines-for-men">
             routine
-          </a>
+          </a>{" "}
           with 10 minutes of cardio at a 14.0 incline and 3 mph.
         </p>
         <h2>Digital Spaces</h2>
         <hr />
         <p>
-          The internet reallyt feels different now, but I am finding joy in
+          The internet really feels different now, but I am finding joy in
           crafting my own space here. This website is my digital garden - a
           place to grow, share and connect. I hope it inspires others to carve
           out their own creative corners online, just like the early days of the

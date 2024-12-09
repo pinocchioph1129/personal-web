@@ -37,8 +37,8 @@
 .page-content-divide {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; /* Align to the top */
-  gap: 2rem; /* Add spacing between sections */
+  align-items: flex-start;
+  gap: 2rem;
   margin-top: 2rem;
 }
 
@@ -71,7 +71,7 @@
 }
 
 .page-content-divide ul {
-  list-style-type: none;
+  list-style-position: inside;
   padding: 0;
   margin: 0;
 }
@@ -79,6 +79,11 @@
 .page-content-divide li {
   line-height: 1.6;
   margin-bottom: 0.5rem;
+  font-variation-settings: "wght" var(--p2-weight);
+}
+
+.page-content-divide li strong {
+  font-variation-settings: "wght" var(--p2-bold);
 }
 
 @media (max-width: 768px) {
