@@ -68,7 +68,6 @@
   border-radius: 5px;
 }
 
-/* Menu toggle active state */
 .menu-toggle {
   display: none;
   font-size: 1.5rem;
@@ -113,23 +112,28 @@
   }
 
   .nav-container ul {
-    display: none;
+    display: block; /* Ensure it's a block element */
     flex-direction: column;
     width: 100%;
     background-color: #ededed;
-    padding: 1rem 0;
+    padding: 0; /* No padding when hidden */
     gap: 0.5rem;
     position: absolute;
     top: 100%;
     left: 0;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    max-height: 0; /* Initially collapsed */
+    overflow: hidden; /* Hide overflowing content */
+    transition: max-height 1s ease; /* Smooth height and padding transition */
   }
 
   .nav-container ul.open {
-    display: flex;
+    max-height: 500px; /* Set to a value larger than the content height */
+    padding: 0rem 0; /* Add padding when open */
   }
 
   .nav-container ul li {
+    padding: 0.2rem;
     width: 100%;
   }
 

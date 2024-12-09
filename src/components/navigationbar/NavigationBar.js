@@ -5,15 +5,15 @@ import "./NavigationBar.css";
 
 export default function NavigationBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [activeTab, setActiveTab] = useState(""); // Track active tab
+  const [activeTab, setActiveTab] = useState("");
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
   const handleTabClick = (tab) => {
-    setActiveTab(tab); // Set the clicked tab as active
-    setIsMenuOpen(false); // Close the menu
+    setActiveTab(tab);
+    setIsMenuOpen(false);
   };
 
   return (
