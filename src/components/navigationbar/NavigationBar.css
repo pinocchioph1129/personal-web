@@ -68,18 +68,49 @@
   border-radius: 5px;
 }
 
+/* Menu toggle active state */
 .menu-toggle {
   display: none;
+  font-size: 1.5rem;
+  color: var(--link-color);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.menu-toggle.open {
+  background-color: #e1e1e1; /* Change background when open */
+}
+
+/* Navigation active tab styles */
+.nav-container ul li.active a,
+.nav-container .site-title.active-tab {
+  background-color: #e1e1e1; /* Background for active state */
+  color: #000; /* Active tab text color */
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.nav-container ul li a {
+  text-align: left;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
 }
 
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
     font-size: 1.5rem;
-    background: none;
+    color: var(--link-color);
+    background-color: none;
     border: none;
     cursor: pointer;
     padding: 0.5rem;
+    border-radius: 10px;
   }
 
   .nav-container ul {
