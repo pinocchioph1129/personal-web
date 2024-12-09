@@ -1,6 +1,6 @@
 import "../notespage.css";
 import CodeBlock from "../../../utilities/codeblock/codeblock";
-import Crochet from "/Users/kervi1/personal-web/src/assets/notes/2024/crochet.png";
+import Crochet from "../../../assets/notes/2024/crochet.png";
 import { useEffect } from "react";
 
 export default function Page() {
