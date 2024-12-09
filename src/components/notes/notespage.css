@@ -3,11 +3,29 @@
   padding-top: 1rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.page-layout {
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.page-content {
+  flex: 3;
+  max-width: 100%;
+}
+
 .page-title {
   padding-bottom: 4vh;
 }
 
 .page-content p {
+  font-size: 1rem;
   padding-bottom: 20px;
   letter-spacing: 0.02rem;
 }

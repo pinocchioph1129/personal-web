@@ -1,6 +1,6 @@
 code {
   background-color: #e7e7e7 !important;
-  font-size: 1.6vh;
+  font-size: 1.3vh;
 }
 
 .code-container {
@@ -21,4 +21,6 @@ code {
 .code-filename p {
   font-variation-settings: "wght" var(--p-bold);
   padding: 10px;
+  margin-left: 10px;
+  font-size: 1.3vh;
 }

@@ -26,5 +26,6 @@ code {
   --p2-bold: 700;
   --p2-size: 1.8vh;
   --link-color: rgb(44, 115, 0);
+  --link-hover-color: rgb(33, 85, 0);
   --link-weight: 600;
 }
