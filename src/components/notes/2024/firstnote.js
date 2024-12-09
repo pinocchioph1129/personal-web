@@ -52,7 +52,7 @@ export default function Page() {
           <p>
             Hello! Welcome to (as the title says) my very first note. As of now,
             I am in the final year of my journey in Computer Science and
-            Philosophy. My academic focus is in dsitributed systems, networking,
+            Philosophy. My academic focus is in distributed systems, networking,
             and security, with a passion for front-end design. I am also honing
             my skills in Go and React through various personal and academic
             projects.
