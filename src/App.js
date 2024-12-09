@@ -2,6 +2,7 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import NavigationBar from "./components/navigationbar/NavigationBar";
 import Footer from "./components/footer/footer";
+import ScrollToTop from "./components/scrolltotop/scrolltotop";
 import Home from "./pages/Home/Home";
 import Notes from "./pages/Notes/Notes";
 import FirstNote from "./components/notes/2024/firstnote";
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="app-container">
       <NavigationBar />
+      <ScrollToTop />
       <div className="container">
         <div className="tab-container">
           <Routes>
