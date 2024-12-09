@@ -88,7 +88,7 @@
 .nav-container ul li.active a,
 .nav-container .site-title.active-tab {
   background-color: #e1e1e1;
-  color: #000;
+  color: var(--link-color);
   font-weight: bold;
   border-radius: 5px;
 }
