@@ -82,14 +82,13 @@
 }
 
 .menu-toggle.open {
-  background-color: #e1e1e1; /* Change background when open */
+  background-color: #e1e1e1;
 }
 
-/* Navigation active tab styles */
 .nav-container ul li.active a,
 .nav-container .site-title.active-tab {
-  background-color: #e1e1e1; /* Background for active state */
-  color: #000; /* Active tab text color */
+  background-color: #e1e1e1;
+  color: #000;
   font-weight: bold;
   border-radius: 5px;
 }
