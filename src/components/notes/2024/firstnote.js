@@ -140,7 +140,10 @@ export default function Page() {
           embrace new challenges, adventures, and beginnings.
         </p>
       </div>
-      <div id="utterances-comments"></div>
+      <div id="utterances-comments">
+        <h2>Comments</h2>
+        <hr />
+      </div>
     </div>
   );
 }
