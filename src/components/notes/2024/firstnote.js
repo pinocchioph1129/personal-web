@@ -33,7 +33,7 @@ export default function Page() {
       text: "Title",
       link: "title-hook",
     },
-    { text: "Coding & Projets", link: "coding-hook" },
+    { text: "Coding & Projects", link: "coding-hook" },
     { text: "Life", link: "life-hook" },
     { text: "Gaming", link: "gaming-hook" },
     { text: "Fitness", link: "fitness-hook" },
@@ -59,10 +59,10 @@ export default function Page() {
           </p>
           <p>
             One of the most exciting projects that I'm working on is a
-            distributed filesystem from my CS 425 Distributed System class. It's
-            been challenging for sure, but it is also rewarding from building
-            failure detection mechanism to implementing consistent hashing for
-            storage.
+            distributed file system from my CS 425 Distributed System class.
+            It's been challenging for sure, but it is also rewarding from
+            building failure detection mechanism to implementing consistent
+            hashing for storage.
           </p>
 
           <h2 id="coding-hook">Coding & Projects</h2>
@@ -84,7 +84,7 @@ export default function Page() {
               <p>
                 Outside of work and school, I have been balancing my time
                 between hobbies like climbing and weight lifting. I used to
-                crochet too! Crocheting has become a meditative practive, while
+                crochet too! Crocheting has become a meditative practice, while
                 climbing keeps me physically and mentally challenged. I have
                 also been spending time exploring new books. Here are some of
                 the books I have:
@@ -97,8 +97,8 @@ export default function Page() {
                   <strong>Queer</strong> By William S. Burroughs
                 </li>
                 <li>
-                  <strong>Sex, Love, & Gender</strong> By Helga Varden (My PHIL
-                  499 Professor)
+                  <strong>Sex, Love, and Gender</strong> By Helga Varden (My
+                  PHIL 499 Professor)
                 </li>
                 <li>
                   <strong>the sun and her flowers</strong> By Rupi Kaur
@@ -138,7 +138,7 @@ export default function Page() {
           <h2 id="fitness-hook">Fitness</h2>
           <hr />
           <p>
-            Consistency is fitness has been a big win for me recently. I have
+            Consistency in fitness has been a big win for me recently. I have
             been going to the gym 6 days a week, and I am starting to see
             progress each day in my strength and endurance. Here's my{" "}
             <a href="https://www.lifehack.org/688549/the-ultimate-workout-routines-for-men">
