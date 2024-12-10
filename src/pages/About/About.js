@@ -199,8 +199,7 @@ export default function About() {
 
           <h2>Software</h2>
           <p>
-            This website is made with React and hosted on Github Pages SSG
-            framework
+            This website is made with React and hosted on Netlify SSG framework
           </p>
 
           <p>
