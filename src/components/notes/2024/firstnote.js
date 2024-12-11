@@ -7,16 +7,25 @@ import { useEffect } from "react";
 export default function Page() {
   useEffect(() => {
     const COMMENTS_ID = "utterances-comments-script";
+
     if (!document.getElementById(COMMENTS_ID)) {
+      console.log("Utterances script is loading...");
       const script = document.createElement("script");
       script.src = "https://utteranc.es/client.js";
       script.async = true;
-      script.setAttribute("repo", "pinocchioph1129/personal-web"); // Replace with your repo
+      script.setAttribute("repo", "pinocchioph1129/personal-web");
       script.setAttribute("issue-term", "pathname");
       script.setAttribute("theme", "github-light");
       script.setAttribute("crossorigin", "anonymous");
       script.id = COMMENTS_ID;
-      document.getElementById("utterances-comments").appendChild(script);
+
+      const commentContainer = document.getElementById("utterances-comments");
+      if (commentContainer) {
+        commentContainer.appendChild(script);
+        console.log("Utterances script appended successfully.");
+      } else {
+        console.error("Error: Utterances container not found.");
+      }
     }
   }, []);
 
@@ -168,6 +177,14 @@ export default function Page() {
           <h2>Comments</h2>
           <hr />
         </div>
+        <script
+          src="https://utteranc.es/client.js"
+          repo="pinocchioph1129/personal-web"
+          issue-term="pathname"
+          theme="github-light"
+          crossorigin="anonymous"
+          async
+        ></script>
       </div>
       <SideBar
         contenttype={contenttype}
