@@ -6,20 +6,16 @@ import { useEffect } from "react";
 
 export default function Page() {
   useEffect(() => {
+    const cleanUrl = window.location.pathname;
+    window.history.replaceState(null, "", cleanUrl);
+
     const COMMENTS_ID = "utterances-comments-script";
     if (!document.getElementById(COMMENTS_ID)) {
       const script = document.createElement("script");
       script.src = "https://utteranc.es/client.js";
       script.async = true;
       script.setAttribute("repo", "pinocchioph1129/personal-web");
-
-      if (process.env.NODE_ENV === "production") {
-        script.setAttribute("issue-term", "pathname");
-      } else {
-        console.log("Utterances not loaded in development.");
-        return;
-      }
-
+      script.setAttribute("issue-term", "pathname");
       script.setAttribute("theme", "github-light");
       script.setAttribute("crossorigin", "anonymous");
       script.id = COMMENTS_ID;
