@@ -55,7 +55,7 @@ p strong {
 .intro-info p {
   flex: 2 1 500px;
   font-variation-settings: "wght" var(--p2-weight);
-  font-size: 1.8vh;
+  font-size: 1.7vh;
   margin-top: 3vh;
   letter-spacing: normal;
   line-height: 1.75;
@@ -65,6 +65,7 @@ p strong {
   position: relative;
   color: var(--link-color);
   text-decoration: none;
+  font-variation-settings: "wght" var(--link-bold);
 }
 
 .intro-link::before {
@@ -117,7 +118,7 @@ p strong {
   justify-content: flex;
   border: 1px solid #b0b0b0;
   border-radius: 10px;
-  background-color: #e1e1e1;
+  background-color: #f0f0f0;
   transition: all 0.5s ease;
 }
 
@@ -180,15 +181,15 @@ p strong {
 .current-container em {
   margin-bottom: 20px;
   font-variation-settings: "wght" var(--p2-weight);
-  font-size: 1.8vh;
+  font-size: 1.7vh;
 }
 
 .current-container a {
   color: var(--link-color);
   text-decoration: none;
   margin-bottom: 20px;
-  font-variation-settings: "wght" var(--p2-weight);
-  font-size: 1.8vh;
+  font-variation-settings: "wght" var(--link-bold);
+  font-size: 1.7vh;
   position: relative;
 }
 
@@ -209,7 +210,7 @@ p strong {
 
 .current-container ul {
   font-variation-settings: "wght" var(--p2-weight);
-  font-size: 1.8vh;
+  font-size: 1.7vh;
   line-height: 2.5vh;
 }
 
@@ -254,7 +255,7 @@ p strong {
   }
 
   .intro-info p {
-    font-size: 1.8vh;
+    font-size: 1.5vh;
     text-align: justify;
   }
 

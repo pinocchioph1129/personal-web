@@ -25,7 +25,7 @@
 }
 
 .intro-info p {
-  font-variation-settings: "wght" 550;
+  font-variation-settings: "wght" var(--p-wght);
   font-size: 2vh;
   margin-top: 3vh;
   letter-spacing: normal;

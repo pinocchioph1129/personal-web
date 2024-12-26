@@ -14,6 +14,13 @@ html {
   margin: 0 auto;
   gap: 2rem;
 }
+.page-layout a {
+  color: var(--link-color);
+  text-decoration: none;
+  margin-bottom: 20px;
+  font-variation-settings: "wght" var(--link-bold);
+  position: relative;
+}
 
 .page-content {
   flex: 3;
@@ -101,6 +108,24 @@ html {
 
 .page-content-divide li strong {
   font-variation-settings: "wght" var(--p2-bold);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {

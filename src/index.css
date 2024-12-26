@@ -10,7 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #ededed;
+  background-color: #fcfcfc;
 }
 
 code {
@@ -19,13 +19,14 @@ code {
 }
 
 :root {
-  --max-width: 720px;
+  --max-width: 900px;
   --p-weight: 450;
   --p-bold: 600;
-  --p2-weight: 450;
+  --p2-weight: 400;
   --p2-bold: 700;
-  --p2-size: 1.8vh;
+  --p2-size: 1.7vh;
   --link-color: rgb(44, 115, 0);
   --link-hover-color: rgb(33, 85, 0);
   --link-weight: 600;
+  --link-bold: 550;
 }

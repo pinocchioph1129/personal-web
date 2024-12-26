@@ -1,5 +1,6 @@
 import "./Home.css";
 import { Link } from "react-router-dom";
+import { Icon } from "@iconify/react";
 import PhotoChanger from "../../utilities/photochange/photochanger.js";
 import CircleText from "../../utilities/circletext/CircleText";
 import ProjectCard from "../../components/projectcard/projectcard";
@@ -36,7 +37,8 @@ export default function Home() {
               </Link>{" "}
               that dive into my thoughts and experiences and a bit about
               background and interests. Whether you're here to learn, explore,
-              or get to know me better, I hope you find something valuable.
+              or get to know me better, I hope you find something valuable.{" "}
+              <Icon icon="unjs:unstorage" width="15" height="15" />{" "}
             </p>
           </div>
           <div className="image-first">
@@ -65,6 +67,10 @@ export default function Home() {
             Personal notes about life, music, projects, and everything else.
           </p>
           <div className="home-notes-links">
+            <Link to="./classes" className="notes-page">
+              <div className="notes-page-name">2024-2024 Class Schedule</div>
+              <div className="notes-page-date-new">December 19</div>
+            </Link>
             <Link to="./firstnote" className="notes-page">
               <div className="notes-page-name">My Very First Note</div>
               <div className="notes-page-date">December 10</div>

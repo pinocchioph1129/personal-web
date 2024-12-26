@@ -168,16 +168,20 @@ export default function About() {
           </div>
           <div className="current-info">
             <h2>Currently</h2>
-            <em>December 5th, 2024</em>
+            <em>December 25th, 2024</em>
             <ul>
               <li>Studying Computer Science and Philosophy at UIUC</li>
               <li>Going to the gym everyday</li>
+              <li>Planning on what to do for NYE</li>
               <li>Reading Blackouts by Justin Torres</li>
               <li>Working on a game project with Max</li>
               <li>Tweaking this website</li>
             </ul>
             <h2>Routine</h2>
-            <a href="https://www.lifehack.org/688549/the-ultimate-workout-routines-for-men#advanced-workout-routine-for-men">
+            <a
+              href="https://www.lifehack.org/688549/the-ultimate-workout-routines-for-men#advanced-workout-routine-for-men"
+              className="intro-link"
+            >
               Link here!
             </a>
             <ul>
