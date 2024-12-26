@@ -14,7 +14,7 @@ export default function Notes() {
       <hr />
       <Link to="./classes" className="notes-page">
         <div className="notes-page-name">2024-2025 Class Schedule</div>
-        <div className="notes-page-date-new">December 19</div>
+        <div className="notes-page-date-new">December 26</div>
       </Link>
       <Link to="./firstnote" className="notes-page">
         <div className="notes-page-name">My Very First Note</div>
