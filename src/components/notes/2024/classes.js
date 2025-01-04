@@ -7,7 +7,7 @@ export default function Page() {
   const notetitle = "2024-2025 Class Schedule";
   const contenttype = "Note";
   // DATE
-  const publisheddate = "December 10, 2024";
+  const publisheddate = "December 26, 2024";
   const topics = ["life", "update"];
   // HOOKS
   const contents = [
@@ -15,12 +15,8 @@ export default function Page() {
       text: "Title",
       link: "title-hook",
     },
-    { text: "Coding & Projects", link: "coding-hook" },
-    { text: "Life", link: "life-hook" },
-    { text: "Gaming", link: "gaming-hook" },
-    { text: "Fitness", link: "fitness-hook" },
-    { text: "Digital Spaces", link: "digital-hook" },
-    { text: "Looking Ahead", link: "looking-hook" },
+    { text: "Spring Classes", link: "spring-hook" },
+    { text: "Fall Classes", link: "fall-hook" },
   ];
   const spring_data = [
     {
@@ -125,7 +121,7 @@ export default function Page() {
             transition into Computer Science, I see this as an opportunity to
             build a well-rounded academic foundation.
           </p>
-          <h2>Spring 2025</h2>
+          <h2 id="spring-hook">Spring 2025</h2>
           <hr />
           <div>
             <table style={{ borderCollapse: "collapse", width: "100%" }}>
@@ -225,7 +221,7 @@ export default function Page() {
               design and operation.
             </p>
           </div>
-          <h2>Fall 2024</h2>
+          <h2 id="fall-hook">Fall 2024</h2>
           <hr />
           <div>
             <table style={{ borderCollapse: "collapse", width: "100%" }}>

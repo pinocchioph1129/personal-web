@@ -1,5 +1,12 @@
 const projectData = [
   {
+    year: "2025",
+    name: "Translator Command Line Tool",
+    detail:
+      "A simple command-line language translator built in Go, using Google Cloud's Translation API.",
+    source: "https://github.com/pinocchioph1129/translator-command-line",
+  },
+  {
     year: "2024",
     name: "kervijayjavonillo.com",
     detail: "The source of this website.",
