@@ -2,14 +2,6 @@ import "../articlespage.css";
 // import CodeBlock from "../../../utilities/codeblock/codeblock";
 import SideBar from "../../sidebar/sidebar";
 import Key from "../../../utilities/key/key";
-import P1 from "../../../assets/articles/2025/cs415mp1/P1.png";
-import P2 from "../../../assets/articles/2025/cs415mp1/P2.png";
-import P3 from "../../../assets/articles/2025/cs415mp1/P3.png";
-import P4 from "../../../assets/articles/2025/cs415mp1/P4.png";
-import P5 from "../../../assets/articles/2025/cs415mp1/P5.png";
-import P6 from "../../../assets/articles/2025/cs415mp1/P6.png";
-import P7 from "../../../assets/articles/2025/cs415mp1/P7.png";
-import P8 from "../../../assets/articles/2025/cs415mp1/P8.png";
 import { useEffect } from "react";
 
 export default function Page() {
@@ -83,8 +75,8 @@ export default function Page() {
             <div className="article-video-container">
               <video
                 className="article-video"
-                src={`${process.env.PUBLIC_URL}/videos/2025/cs415mp1_1.MOV`}
-                type="video/MOV"
+                src={`${process.env.PUBLIC_URL}/videos/2025/cs415mp1_1.mp4`}
+                type="video/mp4"
                 loop
                 autoPlay
                 muted
@@ -135,8 +127,16 @@ export default function Page() {
             game restarts.
           </p>
           <div className="article-image-container">
-            <img className="article-image" src={P1} alt="Game Screenshot" />
-            <img className="article-image" src={P2} alt="Game Screenshot" />
+            <img
+              className="article-image"
+              src="/assets/articles/2025/cs415mp1/P1.png"
+              alt="Game Screenshot"
+            />
+            <img
+              className="article-image"
+              src="/assets/articles/2025/cs415mp1/P2.png"
+              alt="Game Screenshot"
+            />
           </div>
           <p>
             First, I created a <code className="inline-code">Health</code>{" "}
@@ -158,7 +158,11 @@ export default function Page() {
             score resets to zero.
           </p>
           <div className="article-image-container">
-            <img className="article-image" src={P3} alt="Game Screenshot" />
+            <img
+              className="article-image"
+              src="/assets/articles/2025/cs415mp1/P3.png"
+              alt="Game Screenshot"
+            />
           </div>
           <p>
             To implement this, I created a{" "}
@@ -180,7 +184,7 @@ export default function Page() {
           <div className="article-image-container">
             <img
               className="article-image-horizontal"
-              src={P5}
+              src="/assets/articles/2025/cs415mp1/P5.png"
               alt="Game Screenshot"
             />
           </div>
@@ -204,7 +208,7 @@ export default function Page() {
           <div className="article-image-container">
             <img
               className="article-image-horizontal"
-              src={P4}
+              src="/assets/articles/2025/cs415mp1/P4.png"
               alt="Game Screenshot"
             />
           </div>
@@ -224,7 +228,11 @@ export default function Page() {
             eliminates the enemy by shooting projectiles, they earn a score.
           </p>
           <div className="article-image-container">
-            <img className="article-image" src={P6} alt="Game Screenshot" />
+            <img
+              className="article-image"
+              src="/assets/articles/2025/cs415mp1/P6.png"
+              alt="Game Screenshot"
+            />
           </div>
           <p>
             To implement enemies, I created a{" "}
@@ -244,11 +252,15 @@ export default function Page() {
           <div className="article-image-container">
             <img
               className="article-image"
-              src={P7}
+              src="/assets/articles/2025/cs415mp1/P7.png"
               alt="Game Screenshot"
               style={{ maxWidth: "30%" }}
             />
-            <img className="article-image" src={P8} alt="Game Screenshot" />
+            <img
+              className="article-image"
+              src="/assets/articles/2025/cs415mp1/P8.png"
+              alt="Game Screenshot"
+            />
           </div>
           <p>
             To create this mechanic, I designed{" "}

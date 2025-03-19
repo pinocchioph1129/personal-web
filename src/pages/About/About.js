@@ -3,12 +3,14 @@ import PhotoChanger from "../../utilities/photochange/photochanger.js";
 import { Link } from "react-router-dom";
 import { Icon } from "@iconify/react";
 import { useState, useEffect } from "react";
-import PhotoA from "../../assets/about/pfp/100p-p.png";
-import PhotoB from "../../assets/about/pfp/75p-p.png";
-import PhotoC from "../../assets/about/pfp/50p-p.png";
-import PhotoD from "../../assets/about/pfp/25p-p.png";
-import PhotoE from "../../assets/about/pfp/8p-p.png";
-import PhotoF from "../../assets/about/pfp/1p-p.png";
+const photos = [
+  "/assets/about/pfp/100p-p.png",
+  "/assets/about/pfp/75p-p.png",
+  "/assets/about/pfp/50p-p.png",
+  "/assets/about/pfp/25p-p.png",
+  "/assets/about/pfp/8p-p.png",
+  "/assets/about/pfp/1p-p.png",
+];
 
 export default function About() {
   const [isMobile, setIsMobile] = useState(false);
@@ -32,10 +34,7 @@ export default function About() {
         <div className="intro-info">
           <h1>About Me</h1>
           <div className={`intro-image ${isMobile ? "mobile" : ""}`}>
-            <PhotoChanger
-              images={[PhotoA, PhotoB, PhotoC, PhotoD, PhotoE, PhotoF]}
-              intervalTime={200}
-            />
+            <PhotoChanger images={photos} intervalTime={200} />
             <span className="intro-image-title">
               fig. 2 picture of me at a pumpkin patch
             </span>

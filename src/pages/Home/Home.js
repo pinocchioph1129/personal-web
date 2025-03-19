@@ -5,12 +5,14 @@ import PhotoChanger from "../../utilities/photochange/photochanger.js";
 import CircleText from "../../utilities/circletext/CircleText";
 import ProjectCard from "../../components/projectcard/projectcard";
 import projectData from "../../components/projectcard/projectdata";
-import PhotoA from "../../assets/pfp/100p.png";
-import PhotoB from "../../assets/pfp/75p.png";
-import PhotoC from "../../assets/pfp/50p.png";
-import PhotoD from "../../assets/pfp/25p.png";
-import PhotoE from "../../assets/pfp/8p.png";
-import PhotoF from "../../assets/pfp/1p.png";
+const photos = [
+  "/assets/pfp/100p.png",
+  "/assets/pfp/75p.png",
+  "/assets/pfp/50p.png",
+  "/assets/pfp/25p.png",
+  "/assets/pfp/8p.png",
+  "/assets/pfp/1p.png",
+];
 
 export default function Home() {
   return (
@@ -42,10 +44,7 @@ export default function Home() {
             </p>
           </div>
           <div className="image-first">
-            <PhotoChanger
-              images={[PhotoA, PhotoB, PhotoC, PhotoD, PhotoE, PhotoF]}
-              intervalTime={200}
-            />
+            <PhotoChanger images={photos} intervalTime={200} />
             <span className="image-first-title">fig. 1 picture of me</span>
           </div>
         </div>

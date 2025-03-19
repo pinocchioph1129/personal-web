@@ -1,6 +1,5 @@
 import "../notespage.css";
 import CodeBlock from "../../../utilities/codeblock/codeblock";
-import Crochet from "../../../assets/notes/2024/crochet.png";
 import SideBar from "../../sidebar/sidebar";
 import { useEffect } from "react";
 
@@ -107,7 +106,7 @@ export default function Page() {
             </div>
             <div className="page-content-divide-right">
               <div className="page-content-image-container">
-                <img src={Crochet} alt="" />
+                <img src="/assets/notes/2024/crochet.png" alt="" />
                 <span className="page-content-image-title">
                   fig. 1 crochet piece that I made
                 </span>
