@@ -22,7 +22,7 @@ export default function Articles() {
 
         <h2>2025</h2>
         <hr />
-        <Link to="./cs415mp1" className="articles-page">
+        <Link to="/Articles/cs415mp1" className="articles-page">
           <div className="articles-page-name">
             CS 415: Infinite Matrix using Unreal Engine 5
           </div>
