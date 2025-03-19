@@ -86,6 +86,14 @@ export default function Home() {
           </div>
           <hr />
           <p>Guides, references, and tutorials.</p>
+          <div className="home-articles-links">
+            <Link to="./classes" className="notes-page">
+              <div className="articles-page-name">
+                CS 415: Infinite Matrix using Unreal Engine 5
+              </div>
+              <div className="articles-page-date-new">March 15</div>
+            </Link>
+          </div>
         </div>
         <div class="home-projects-container">
           <div className="home-title">

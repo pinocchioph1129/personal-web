@@ -70,11 +70,11 @@ export default function Page() {
           <hr />
           <p>
             Welcome to my first technical article. I wanted to write about this
-            machine project because I thought it too interesting and outside of
-            my focus study. For CS 415: Game Development, I had to create a
-            Matrix-inspired endless running in Unreal Engine 5.5.1. The first MP
-            is to learn how Unreal Engine works, learn Blueprint scripting, UI
-            development, and gameplay mechanics while keeping it fun. I have
+            machine project because I found it very interesting and outside my
+            primary area of study. For CS 415: Game Development, I had to create
+            a Matrix-inspired endless runner in Unreal Engine 5.5.1. The first
+            MP is to learn how Unreal Engine works, learn Blueprint scripting,
+            UI development, and gameplay mechanics while keeping it fun. I have
             never been a big fan of the <i>Matrix</i> sequels, but making a game
             where you dodge obstacles, fight enemies, and go through endless
             tunnels felt like a fitting tribute to the sequels.
@@ -104,10 +104,10 @@ export default function Page() {
           <hr />
           <p>
             The object of the project was to build a first-person endless runner
-            with simple yet engaging mechanics. Basically, the player sprint
-            through an endless tunnel while dodging obstacles while their speed
-            increases. Health packs that randomly spawn in random coordinates
-            are available to be picked up to increase their health.
+            with simple yet engaging mechanics. Basically, the player sprints
+            through an endless tunnel, dodging obstacles as their speed
+            increases. Health packs spawn at random locations and can be picked
+            up to restore health.
           </p>
           <p>
             For this project, I used Unreal Engine 5.5.1, using Blueprints for
@@ -115,14 +115,13 @@ export default function Page() {
             gameplay recording and debugging.
           </p>
           <p>
-            The game includes several core features. First, the player can move
-            in a first-person perspective. This will then allow them to navigate
-            around the tunnels/environment smoothly. The obstacle avoidance
-            mechanics relies on real-time collision detection to determine when
-            the player interacts with objects. The scoring system increases when
-            the player successfully pass through each tunnel or shoot an enemy.
-            The game template that I used for the mesh and generation of tunnels
-            is from Kodeco.
+            The game includes several core features. First, the player moves in
+            a first-person perspective, allowing them to navigate tunnels
+            smoothly. The obstacle avoidance mechanics rely on real-time
+            collision detection to determine when the player interacts with
+            objects. The player's score increases when they successfully pass
+            through each tunnel or shoot an enemy. The game template that I used
+            for the mesh and generation of tunnels is from Kodeco.
           </p>
           <h2 id="game-mechanics-hook">Game Mechanics</h2>
           <hr />
@@ -132,7 +131,7 @@ export default function Page() {
             decreases upon collision rather than instantly losing. When the
             player collides with an obstacle, they do not stop but instead pass
             through. The game only ends when the player's health reaches zero.
-            The health bar is displayed on the UI and resets to 100 when the
+            The health bar is displayed in the UI and resets to 100 when the
             game restarts.
           </p>
           <div className="article-image-container">
@@ -165,8 +164,8 @@ export default function Page() {
             To implement this, I created a{" "}
             <code className="inline-code">variable</code> integer variable in{" "}
             <code className="inline-code">BP_Player</code> which keeps track of
-            the player's score. I also added a widget to create a display the
-            score in the UI with a text. I added a{" "}
+            the player's score. I also added a widget to display the score in
+            the UI as text. I added a{" "}
             <code className="inline-code">TriggerZone</code> inside each tunnel.
             When the player successfully passes through, the system updates the
             score accordingly.
@@ -186,11 +185,11 @@ export default function Page() {
             />
           </div>
           <p>
-            For this mechanic, I just added a variable{" "}
-            <code className="inline-code">Forward Speed</code> and add that
-            after multiplying <code className="inline-code">Score</code> by 50.
-            The sum those variables will then be multiplied by the elapsed time
-            and setting that product of that variable as the{" "}
+            For this mechanic, I just added a variable called{" "}
+            <code className="inline-code">Forward Speed</code>, then increased
+            it by multiplying <code className="inline-code">Score</code> by 50.
+            The sum these variables is then be multiplied by the elapsed time
+            and set as the{" "}
             <code className="inline-code">Actor World Offset</code> function and
             the <code className="inline-code">Curr Speed</code>.
           </p>
@@ -222,8 +221,7 @@ export default function Page() {
           <p>
             I implemented an enemy in each tunnel. When the player collides with
             an enemy, the player's health decreases. However, if the player
-            somehow eliminate the enemy by shooting projectiles, then the player
-            earns a score.
+            eliminates the enemy by shooting projectiles, they earn a score.
           </p>
           <div className="article-image-container">
             <img className="article-image" src={P6} alt="Game Screenshot" />
@@ -240,8 +238,8 @@ export default function Page() {
           <p>
             I also added a <strong>projectile attack system</strong> that allows
             the player to fire bullets by clicking the <Key keyText="LMB" />.
-            The projectile moves at a speed faster than the player's movement
-            speed. Once the projectile collides with an enemy, it is destroyed.
+            The projectile moves faster than the player's movement speed. Once
+            the projectile collides with an enemy, it is destroyed.
           </p>
           <div className="article-image-container">
             <img
@@ -263,12 +261,12 @@ export default function Page() {
           <p>
             Overall, this project was fun and challenging as an introduction to
             Unreal Engine 5. I think this machine project taught me how to use
-            Blueprint scripting, create interactive mechanics and develop UI
+            Blueprint scripting, create interactive mechanics, and develop UI
             elements for health and scoring.
           </p>
           <p>
-            Thanks for reading! If there's any additional thoughts that you'd
-            like to know about the projects or want to add, please let me know!
+            Thanks for reading! If you have any additional thoughts or feedback
+            about the project, let me know!
           </p>
         </div>
         <div id="utterances-comments">

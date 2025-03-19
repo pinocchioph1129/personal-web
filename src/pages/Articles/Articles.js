@@ -26,7 +26,7 @@ export default function Articles() {
           <div className="articles-page-name">
             CS 415: Infinite Matrix using Unreal Engine 5
           </div>
-          <div className="articles-page-date">March 15</div>
+          <div className="articles-page-date-new">March 15</div>
         </Link>
       </div>
     </div>

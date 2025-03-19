@@ -129,6 +129,10 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.articles-page-date-new {
+  white-space: nowrap;
+}
+
 @media (max-width: 768px) {
   .intro {
     flex-direction: row;
