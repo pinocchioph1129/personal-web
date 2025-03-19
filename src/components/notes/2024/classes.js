@@ -105,7 +105,7 @@ export default function Classes() {
           <p>
             Hello! Welcome to my class schedule for the school year 2024-2025.
             As a senior, the courses I’m taking can be challenging at times. My
-            primary focus is on Distributed Systemsm, which guided me to select
+            primary focus is on Distributed Systems, which guided me to select
             classes that are heavily concentrated on networking and security,
             along with a touch of IoT (Internet of Things) to round out my
             understanding of connected systems.

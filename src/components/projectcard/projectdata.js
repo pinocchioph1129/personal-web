@@ -12,8 +12,8 @@ const projectData = [
     name: "CS 415 Game Development: An Infinite Matrix ",
     detail: "A simple Matrix-themed game  using Unreal Engine 5.",
     source: "https://github.com/pinocchioph1129/CS415-MP-SP2025.git",
-    article: "/Articles/cs415mp1",
-    demo: "/Articles/cs415mp1",
+    article: "/#/Articles/cs415mp1",
+    demo: "/#/Articles/cs415mp1",
   },
   {
     year: "2025",
