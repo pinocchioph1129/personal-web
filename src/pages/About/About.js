@@ -148,32 +148,28 @@ export default function About() {
         <hr />
         <div className="current-container">
           <div className="current-video-container">
-            {!isMobile && (
-              <video
-                className="current-video"
-                src={`${process.env.PUBLIC_URL}/videos/climbingme.MOV`}
-                type="video/mp4"
-                width="450"
-                height="450"
-                loop
-                autoPlay
-                muted
-              >
-                Your browser does not support the video tag.
-              </video>
-            )}
+            <video
+              className="current-video"
+              src={`${process.env.PUBLIC_URL}/videos/climbingme.MOV`}
+              type="video/mp4"
+              loop
+              autoPlay
+              muted
+              playsInline
+            >
+              Your browser does not support the video tag.
+            </video>
             <span className="current-video-title">
               vid. 1 this is me rock climbing at ARC
             </span>
           </div>
           <div className="current-info">
             <h2>Currently</h2>
-            <em>December 25th, 2024</em>
+            <em>March 15th, 2025</em>
             <ul>
               <li>Studying Computer Science and Philosophy at UIUC</li>
               <li>Going to the gym everyday</li>
-              <li>Planning on what to do for NYE</li>
-              <li>Reading Blackouts by Justin Torres</li>
+              <li>On Spring Break</li>
               <li>Working on a game project with Max</li>
               <li>Tweaking this website</li>
             </ul>

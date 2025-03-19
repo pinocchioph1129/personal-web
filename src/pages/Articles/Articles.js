@@ -20,8 +20,14 @@ export default function Articles() {
           </p>
         </div>
 
-        <h2>2024</h2>
+        <h2>2025</h2>
         <hr />
+        <Link to="./cs415mp1" className="articles-page">
+          <div className="articles-page-name">
+            CS 415: Infinite Matrix using Unreal Engine 5
+          </div>
+          <div className="articles-page-date">March 15</div>
+        </Link>
       </div>
     </div>
   );

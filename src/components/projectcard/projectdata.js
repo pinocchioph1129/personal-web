@@ -1,6 +1,21 @@
 const projectData = [
   {
     year: "2025",
+    name: "CS 415 Game Development: Level Design",
+    detail:
+      "A 3D platformer level showing player abilities, level layouts, and enemy AI using Unreal Engine 5.",
+    source: "https://github.com/pinocchioph1129/CS415-MP-SP2025.git",
+    demo: "https://github.com/pinocchioph1129/CS415-MP-SP2025.git",
+  },
+  {
+    year: "2025",
+    name: "CS 415 Game Development: An Infinite Matrix ",
+    detail: "A simple Matrix-themed game  using Unreal Engine 5.",
+    source: "https://github.com/pinocchioph1129/CS415-MP-SP2025.git",
+    demo: "https://github.com/pinocchioph1129/CS415-MP-SP2025.git",
+  },
+  {
+    year: "2025",
     name: "Translator Command Line Tool",
     detail:
       "A simple command-line language translator built in Go, using Google Cloud's Translation API.",

@@ -146,4 +146,8 @@ th {
   .page-content-divide-right img {
     max-width: 200px;
   }
+
+  .page-content-divide ul {
+    margin-bottom: 0px;
+  }
 }

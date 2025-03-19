@@ -4,10 +4,14 @@ import NavigationBar from "./components/navigationbar/NavigationBar";
 import Footer from "./components/footer/footer";
 import ScrollToTop from "./components/scrolltotop/scrolltotop";
 import Home from "./pages/Home/Home";
+
 import Notes from "./pages/Notes/Notes";
 import FirstNote from "./components/notes/2024/firstnote";
 import Classes from "./components/notes/2024/classes";
+
 import Articles from "./pages/Articles/Articles";
+import CS415MP1 from "./components/articles/2025/cs415mp1";
+
 import Projects from "./pages/Projects/Projects";
 import About from "./pages/About/About";
 
@@ -32,6 +36,7 @@ function App() {
 
             {/* ARTICLES */}
             <Route path="/Articles" element={<Articles />} />
+            <Route path="/Articles/cs415mp1" element={<CS415MP1 />} />
 
             {/* PROJECTS */}
             <Route path="/Projects" element={<Projects />} />

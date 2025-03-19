@@ -25,3 +25,39 @@
   border-radius: 8px;
   border: 1.5px solid #525252;
 }
+
+.articles-page {
+  text-decoration: none;
+  justify-content: space-between;
+  display: flex;
+  padding: 1vh;
+  border-radius: 10px;
+  align-items: center;
+  font-variation-settings: "wght" var(--p-bold);
+  transition: all 0.3s ease;
+  flex-wrap: nowrap;
+}
+
+.articles-page:hover {
+  background: #e6e6e6;
+}
+
+.articles-page-name {
+  color: var(--link-color);
+}
+
+.articles-page-date {
+  color: #6f6f6f;
+  white-space: nowrap;
+}
+
+.articles-page-date-new {
+  color: rebeccapurple;
+}
+
+@media (max-width: 768px) {
+  .articles-page-date {
+    color: #6f6f6f;
+    display: flex;
+  }
+}
