@@ -113,7 +113,14 @@ export default function CS415MP1() {
             collision detection to determine when the player interacts with
             objects. The player's score increases when they successfully pass
             through each tunnel or shoot an enemy. The game template that I used
-            for the mesh and generation of tunnels is from Kodeco.
+            for the mesh and generation of tunnels is from{" "}
+            <a
+              href="https://www.kodeco.com/454-how-to-create-a-simple-game-in-unreal-engine-4"
+              className="intro-link"
+            >
+              Kodeco
+            </a>
+            .
           </p>
           <h2 id="game-mechanics-hook">Game Mechanics</h2>
           <hr />
