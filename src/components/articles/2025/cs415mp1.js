@@ -75,7 +75,7 @@ export default function Page() {
             <div className="article-video-container">
               <video
                 className="article-video"
-                src={`${process.env.PUBLIC_URL}/videos/2025/cs415mp1_1.mp4`}
+                src="/videos/2025/cs415mp1_1.mp4"
                 type="video/mp4"
                 loop
                 autoPlay
