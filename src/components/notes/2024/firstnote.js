@@ -3,7 +3,7 @@ import CodeBlock from "../../../utilities/codeblock/codeblock";
 import SideBar from "../../sidebar/sidebar";
 import { useEffect } from "react";
 
-export default function Page() {
+export default function FirstNote() {
   useEffect(() => {
     const COMMENTS_ID = "utterances-comments-script";
     if (!document.getElementById(COMMENTS_ID)) {

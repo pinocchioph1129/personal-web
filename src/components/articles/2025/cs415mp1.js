@@ -4,7 +4,7 @@ import SideBar from "../../sidebar/sidebar";
 import Key from "../../../utilities/key/key";
 import { useEffect } from "react";
 
-export default function Page() {
+export default function CS415MP1() {
   // TITLE
   const notetitle = "CS 415: Infinite Matrix using Unreal Engine 5";
   const contenttype = "Article";

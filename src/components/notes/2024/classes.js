@@ -3,7 +3,7 @@ import "../notespage.css";
 import SideBar from "../../sidebar/sidebar";
 import { useEffect } from "react";
 
-export default function Page() {
+export default function Classes() {
   const notetitle = "2024-2025 Class Schedule";
   const contenttype = "Note";
   // DATE

@@ -28,6 +28,7 @@ function App() {
             {/* HOME NOTES */}
             <Route path="/classes" element={<Classes />} />
             <Route path="/firstnote" element={<FirstNote />} />
+            <Route path="/cs415mp1" element={<CS415MP1 />} />
 
             {/* NOTES */}
             <Route path="/Notes" element={<Notes />} />
