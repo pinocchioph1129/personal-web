@@ -84,7 +84,7 @@ export default function Page() {
               <video
                 className="article-video"
                 src={`${process.env.PUBLIC_URL}/videos/2025/cs415mp1_1.MOV`}
-                type="video/mp4"
+                type="video/MOV"
                 loop
                 autoPlay
                 muted
