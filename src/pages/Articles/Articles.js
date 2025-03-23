@@ -22,11 +22,17 @@ export default function Articles() {
 
         <h2>2025</h2>
         <hr />
+        <Link to="/Articles/cs415mp2" className="articles-page">
+          <div className="articles-page-name">
+            CS 415: Level Design using Unreal Engine 5
+          </div>
+          <div className="articles-page-date-new">March 20</div>
+        </Link>
         <Link to="/Articles/cs415mp1" className="articles-page">
           <div className="articles-page-name">
             CS 415: Infinite Matrix using Unreal Engine 5
           </div>
-          <div className="articles-page-date-new">March 15</div>
+          <div className="articles-page-date">March 15</div>
         </Link>
       </div>
     </div>

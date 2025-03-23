@@ -9,7 +9,7 @@ export default function CS415MP1() {
   const notetitle = "CS 415: Infinite Matrix using Unreal Engine 5";
   const contenttype = "Article";
   // DATE
-  const publisheddate = "March 5, 2025";
+  const publisheddate = "March 15, 2025";
   const topics = ["machine projects", "update", "gaming development"];
   // HOOKS
   const contents = [
@@ -95,9 +95,9 @@ export default function CS415MP1() {
           <h2 id="project-overview-hook">Project Overview</h2>
           <hr />
           <p>
-            The object of the project was to build a first-person endless runner
-            with simple yet engaging mechanics. Basically, the player sprints
-            through an endless tunnel, dodging obstacles as their speed
+            The objective of the project was to build a first-person endless
+            runner with simple yet engaging mechanics. Basically, the player
+            sprints through an endless tunnel, dodging obstacles as their speed
             increases. Health packs spawn at random locations and can be picked
             up to restore health.
           </p>

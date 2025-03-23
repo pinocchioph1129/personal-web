@@ -5,7 +5,8 @@ const projectData = [
     detail:
       "A 3D platformer level showing player abilities, level layouts, and enemy AI using Unreal Engine 5.",
     source: "https://github.com/pinocchioph1129/CS415-MP-SP2025.git",
-    demo: "https://github.com/pinocchioph1129/CS415-MP-SP2025.git",
+    article: "/#/Articles/cs415mp2",
+    demo: "/#/Articles/cs415mp2",
   },
   {
     year: "2025",
