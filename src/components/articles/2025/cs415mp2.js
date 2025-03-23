@@ -64,7 +64,7 @@ export default function CS415MP2() {
           <hr />
           <p>
             For MP2: Level Design in CS 415 Game Development, I developed a
-            first-person platform game using <strong>Unreal 5.4</strong>. This
+            third-person platform game using <strong>Unreal 5.4</strong>. This
             project taught me how to create a playable 3D platforming level by
             implementing core <strong>game mechanics</strong>,{" "}
             <strong>AI-driven enemies</strong>, <strong>Pawn Sensing</strong>,
