@@ -56,7 +56,7 @@ export default function CS415MP2() {
         <div className="page-content">
           <p>
             <i>
-              A first-person 3D platformer that I designed and built for CS 415:
+              A third-person 3D platformer that I designed and built for CS 415:
               Game Development
             </i>
           </p>
