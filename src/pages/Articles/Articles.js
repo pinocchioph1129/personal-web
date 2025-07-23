@@ -22,11 +22,17 @@ export default function Articles() {
 
         <h2>2025</h2>
         <hr />
+        <Link to="/Articles/distributed_log" className="articles-page">
+          <div className="articles-page-name">
+            Distributed Log Query: A Beginner's Guide
+          </div>
+          <div className="articles-page-date-new">July 22</div>
+        </Link>
         <Link to="/Articles/cs415mp2" className="articles-page">
           <div className="articles-page-name">
             CS 415: Level Design using Unreal Engine 5
           </div>
-          <div className="articles-page-date-new">March 20</div>
+          <div className="articles-page-date">March 20</div>
         </Link>
         <Link to="/Articles/cs415mp1" className="articles-page">
           <div className="articles-page-name">

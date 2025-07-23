@@ -86,11 +86,17 @@ export default function Home() {
           <hr />
           <p>Guides, references, and tutorials.</p>
           <div className="home-articles-links">
+            <Link to="./distributed_log" className="notes-page">
+              <div className="articles-page-name">
+                Distributed Log Query: A Beginner's Guide
+              </div>
+              <div className="articles-page-date-new">July 22</div>
+            </Link>
             <Link to="./cs415mp2" className="notes-page">
               <div className="articles-page-name">
                 CS 415: Level Design using Unreal Engine 5
               </div>
-              <div className="articles-page-date-new">March 20</div>
+              <div className="articles-page-date">March 20</div>
             </Link>
             <Link to="./cs415mp1" className="notes-page">
               <div className="articles-page-name">

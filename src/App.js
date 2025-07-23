@@ -12,6 +12,7 @@ import Classes from "./components/notes/2024/classes";
 import Articles from "./pages/Articles/Articles";
 import CS415MP1 from "./components/articles/2025/cs415mp1";
 import CS415MP2 from "./components/articles/2025/cs415mp2";
+import DistributedLog from "./components/articles/2025/distributed_log";
 
 import Projects from "./pages/Projects/Projects";
 import About from "./pages/About/About";
@@ -31,6 +32,7 @@ function App() {
             <Route path="/firstnote" element={<FirstNote />} />
             <Route path="/cs415mp1" element={<CS415MP1 />} />
             <Route path="/cs415mp2" element={<CS415MP2 />} />
+            <Route path="/distributed_log" element={<DistributedLog />} />
 
             {/* NOTES */}
             <Route path="/Notes" element={<Notes />} />
@@ -41,6 +43,7 @@ function App() {
             <Route path="/Articles" element={<Articles />} />
             <Route path="/Articles/cs415mp1" element={<CS415MP1 />} />
             <Route path="/Articles/cs415mp2" element={<CS415MP2 />} />
+            <Route path="/Articles/distributed_log" element={<DistributedLog />} />
 
             {/* PROJECTS */}
             <Route path="/Projects" element={<Projects />} />
