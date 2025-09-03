@@ -15,7 +15,7 @@ export default function Articles() {
         <div className="articles-topics">
           <p>
             <Link to="/Projects" className="articles-link">
-              Explore Topics
+              Explore Topics!
             </Link>
           </p>
         </div>
